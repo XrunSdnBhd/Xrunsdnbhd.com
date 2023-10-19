@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale =1.0">
+    <title> XRUN SDNBHD </title>
+    <link rel="stylesheet" href="Xstyle.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?
+family=Poppins:wght@100;200;300;400;600;700&display=swap"
+rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/Logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="Xabout.html">ABOUT</a></li>
+                    <li><a href="Xservices.html">SERVICES</a></li>
+                    
+                    <li><a href="Xcontact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Contact Us</h1>
+    </section>
+
+<!------ Contact ------>
+
+<section class="contact-us">
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <i class="fa fa-phone"></i>
+                <span>
+                    <h5>+6012-494 1419</h5>
+                    <p>Monday to Friday, 10AM - 6PM</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-facebook"></i>
+                <span>
+                    <h5>&nbsp;Xrun Sdn Bhd</h5>
+                    <p>&nbsp;&nbsp;Monday to Fridaty, 10AM - 6PM</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-instagram"></i>
+                <span>
+                    <h5>xrunsdnbhd</h5>
+                    <p>Monday to Friday, 10AM - 6PM</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-envelope-o"></i>
+                <span>
+                    <h5>xrun.customer.service@gmail.com</h5>
+                    <p>Email Us For More Information</p>
+                </span>
+            </div>
+        </div>
+        <div class="contact-col">
+
+            <form action="form-handler.php" method="post">
+                <input type="text" name="name" placeholder="Enter Your Name" required>
+                <input type="Email" name="email" placeholder="Enter Email Address" required>
+                <input type="text" name="subject" placeholder="Enter Your Preferable Service" required>
+                <textarea rows="8" name="message" placeholder="Message"></textarea>
+                <button type="submit" class="hero-btn cyan-btn">Send Message</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+    
+<!------ Footer ------>
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Our goal is to combines these services in a holistic approach tailored to your unique goals and industry, ensuring a powerful and sustainable digital marketing.<br> We continually adaptOur goal is to combines these services in a holistic approach tailored to your unique goals and industry, ensuring a powerful and sustainable digital marketing.<br> We continually and refine our strategies to stay ahead of industry trends and drive measurable results. </p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-envelope-o"></i>
+        <i class="fa fa-phone"></i>
+    </div>
+    <p>Made With <i class="fa fa-heart-o"></i> by Xrun's Team </p>
+</section>
+
+
+    <!------JavaScript For Toggle Menu------>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+</html>

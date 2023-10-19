@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale =1.0">
+    <title> XRUN SDNBHD </title>
+    <link rel="stylesheet" href="Xstyle.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?
+family=Poppins:wght@100;200;300;400;600;700&display=swap"
+rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/Logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="Xabout.html">ABOUT</a></li>
+                    <li><a href="Xservices.html">SERVICES</a></li>
+                    
+                    <li><a href="Xcontact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Xrun Digital Marketing</h1>
+            <p>Elevate Your Sales Game With Us!</p>
+            <a href="Xabout.html" class="hero-btn">Visit Us To Know More</a>
+            
+        </div>
+        
+    </section>
+    
+
+<!------ Services ------>
+<section class="services">
+    <h1> Services We Offer</h1>
+    <p>Examples Of Our Services </p>
+
+    <div class="row">
+        <div class="services-col">
+            <h3> Search Engine Optimization (SEO) </h3>
+            <p>SEO is the process of optimizing a website or online content to improve its visibility in search engine results pages (SERPs). This involves optimizing on-page elements, creating high-quality content, building quality backlinks, and ensuring a website is technically sound. The goal is to rank higher in search engines like Google, driving organic (non-paid) traffic to your website.</p>
+        </div>
+        <div class="services-col">
+            <h3> Social Media Marketing (SMM) </h3>
+            <p>Social media marketing involves creating and sharing content on social media platforms such as Facebook, Instagram, Twitter, and LinkedIn to promote a brand or product. This service includes developing a content strategy, creating engaging posts, running paid advertising campaigns, and analyzing performance metrics to increase brand awareness and engagement with the target audience.</p>
+        </div>
+        <div class="services-col">
+            <h3> Pay-Per-Click Advertising (PPC) </h3>
+            <p>PPC advertising is a model where advertisers pay a fee each time their ad is clicked. This form of online advertising is often associated with platforms like Google Ads and Bing Ads. PPC campaigns allow businesses to display ads to users searching for specific keywords or demographics, ensuring their message reaches a highly targeted audience. Effective management of PPC campaigns can drive traffic and conversions while managing ad spend efficiently.</p>
+        </div>
+        
+    </div>
+</section>
+
+<!------ Call to action ------>
+
+<section class="cta">
+    <h1> Ready to boost your online presence? Contact us now for a free consultation and elevate your digital success! </h1>
+    <a href="Xcontact.html" class="hero-btn">CONTACT US</a> 
+
+</section>
+
+<!------ Footer ------>
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Our goal is to combines these services in a holistic approach tailored to your unique goals and industry, ensuring a powerful and sustainable digital marketing.<br> We continually adapt and refine our strategies to stay ahead of industry trends and drive measurable results. </p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-envelope-o"></i>
+        <i class="fa fa-phone"></i>
+    </div>
+    <p>Made With <i class="fa fa-heart-o"></i> by Xrun's Team </p>
+</section>
+
+
+    <!------JavaScript For Toggle Menu------>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+</html>
